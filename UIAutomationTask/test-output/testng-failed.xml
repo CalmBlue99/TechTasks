@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.au.TestUIflow">
+        <methods>
+          <include name="testUIAutomationFlow" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.test.au.TestUIflow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
